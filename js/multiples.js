@@ -48,6 +48,6 @@ const multiples2 = maxNum => {
 };
 
 
-console.log(multiples(1000));
+//console.log(multiples(1000));
 //console.log(multiples2(1000));
 
