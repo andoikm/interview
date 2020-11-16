@@ -1,24 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Interview</title>
-    <link rel="stylesheet" href="css/index.css">
+    <title>Title</title>
+    <style rel="stylesheet">
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+        }
+        .active {
+            background: green;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">Header</header>
-        <div class="content">
-            <div style="height:1000px;">Content</div>
-        </div>
-        <footer class="footer" id="footer">Footer</footer>
-    </div>
+    <p id="windowInitialText"></p>
+    <button id="runBtnAsc">ASC</button>
+    <button id="runBtnDesc">DESC</button>
+    <button id="resetBtn">reset</button>
+    <p id="windowText"></p>
 
-    <script src="js/multiples.js"></script>
-    <script src="js/configurableMultiples.js"></script>
-    <script src="js/view.js"></script>
+    <!-- global object for import export data lass then es5    -->
+    <script> window.APP = {}; </script>
+
+    <!-- constants  -->
+    <script src="constants/index.js"></script>
+
+    <!--  algorithms  -->
+    <script src="algorithms/bubbleSort.js"></script>
+
+    <!-- promises  -->
+    <script src="promise/index.js"></script>
+
+    <!--design patterns    -->
+    <script src="./designPatterns/observer.js"></script>
+    <script src="./designPatterns/factory.js"></script>
+    <script src="./designPatterns/singleton.js"></script>
+    <script src="./designPatterns/strategy.js"></script>
+    <script src="./designPatterns/iterator.js"></script>
+    <script src="./designPatterns/proxy.js"></script>
+    <script src="./designPatterns/mediator.js"></script>
+    <script src="./designPatterns/visitor.js"></script>
+
+    <!-- data structure -->
+    <script src="./dataStructure/linkedList.js"></script>
+
+    <!-- Event handler   -->
+    <script src="events/index.js"></script>
 </body>
 </html>
