@@ -11,6 +11,7 @@
  * or manipulate collections of objects that are different but at
  * the same time have many characteristics (i.e. methods and properties) in common.
  */
+
 function Developer(name) {
   this.name = name;
   this.type = 'Developer';
@@ -41,5 +42,7 @@ const employers = [];
 
 employers.push(factoryEmployer.creator('Ando', 1));
 employers.push(factoryEmployer.creator('Meri', 2));
-
 //employers.forEach(emp => getEmployer.call(emp));
+
+
+

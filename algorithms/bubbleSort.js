@@ -40,6 +40,3 @@
   APP.ASC = ASC;
   APP.bubbleSort = bubbleSort;
 })(APP);
-
-
-
