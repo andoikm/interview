@@ -131,8 +131,8 @@ conga.add('Dog');
 conga.add('Cat');
 conga.add('Fish');
 
-console.log(conga.size());
-console.log(conga.elementAt(1));
-console.log(conga.indexOf('Dog'));
-console.log(conga.removeAt(2));
-console.log(conga.size());
+//console.log(conga.size());
+//console.log(conga.elementAt(1));
+//console.log(conga.indexOf('Dog'));
+//console.log(conga.removeAt(2));
+//console.log(conga.size());

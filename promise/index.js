@@ -16,7 +16,7 @@ first(2, (firstResult, err) => {
       if( !err ) {
         third(secondResult, (thirdResult, err) => {
           if( !err ) {
-            console.log(thirdResult);
+            //console.log(thirdResult);
           }
         });
       }

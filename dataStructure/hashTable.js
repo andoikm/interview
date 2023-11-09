@@ -58,4 +58,4 @@ class HashTable {
 const myTable = new HashTable();
 myTable.setItem("firstName", "bob");
 myTable.setItem("age", 5);
-console.log(myTable.getItem("dob"));
+//console.log(myTable.getItem("dob"));

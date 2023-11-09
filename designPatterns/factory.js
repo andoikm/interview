@@ -23,7 +23,7 @@ function Tester(name) {
 }
 
 function getEmployer() {
-  console.log(`Hello ${this.name}, I am a ${this.type}`);
+  //console.log(`Hello ${this.name}, I am a ${this.type}`);
 }
 
 function Factory() {

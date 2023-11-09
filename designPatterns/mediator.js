@@ -20,7 +20,7 @@ Member.prototype = {
     this.chatroom.send(message, this, toMember);
   },
   receive: function (message, fromMember) {
-    console.log(`${fromMember.name} to ${this.name}, ${message}`);
+    //console.log(`${fromMember.name} to ${this.name}, ${message}`);
   }
 }
 
