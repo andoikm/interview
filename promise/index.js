@@ -26,10 +26,10 @@ first(2, (firstResult, err) => {
 
 const promise = new Promise((resolve, reject) => resolve(2));
 
-promise
-  .then(value => value + 2)
-  .then(value => value + 2)
-  .then(value => value + 2)
-  .then(value => {
-    console.log(value);
-  });
+// promise
+//   .then(value => value + 2)
+//   .then(value => value + 2)
+//   .then(value => value + 2)
+//   .then(value => {
+//     console.log(value);
+//   });
