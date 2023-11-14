@@ -1,5 +1,7 @@
 /**
  * objectneri nor gorcoxutyunner avelacnel arac object@ poxelu
+ *
+ *
  * The Visitor pattern defines a new operation to a collection of objects without changing the objects themselves.
  * The new logic resides in a separate object called the Visitor.
  *

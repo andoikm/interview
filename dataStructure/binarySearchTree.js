@@ -133,5 +133,5 @@ bst.insert(15);
 bst.insert(5);
 
 
-bst.postorder(bst.root);
+bst.postOrder(bst.root);
 

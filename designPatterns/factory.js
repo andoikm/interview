@@ -23,7 +23,7 @@ function Tester(name) {
 }
 
 function getEmployer() {
-  //console.log(`Hello ${this.name}, I am a ${this.type}`);
+  console.log(`Hello ${this.name}, I am a ${this.type}`);
 }
 
 function Factory() {
@@ -43,6 +43,7 @@ const employers = [];
 employers.push(factoryEmployer.creator('Ando', 1));
 employers.push(factoryEmployer.creator('Meri', 2));
 //employers.forEach(emp => getEmployer.call(emp));
+
 
 
 
