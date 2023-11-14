@@ -1,0 +1,16 @@
+.demo {
+  border: 2px seagreen solid;
+}
+
+.square {
+  width: 640px;
+  height: 360px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid red;
+}
+
+.square .animated-img {
+  position: absolute;
+}
