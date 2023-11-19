@@ -1,19 +1,19 @@
 import {useContext} from "react";
-import {Context} from "./MyContext";
+import {ThemContext} from "./ThemContext";
 
 const Test = () => {
-  const {values, setValues} = useContext(Context);
-
-  const handleAdd = () => setValues(prev => [...prev, prev[prev.length-1] + 1]);
+  const {data} = useContext(ThemContext);
 
   return (
-    <div>
-      <ul>
-        {values.map(i => <li key={i.toString()}>{i}</li>)}
-      </ul>
-      <button onClick={handleAdd}>Add value</button>
+    <div className={data.them}>
+      <h1>Hello</h1>
+      <h2>Hello</h2>
+      <h3>Hello</h3>
+      <h4>Hello</h4>
+      <h5>Hello</h5>
+      <h6>Hello</h6>
     </div>
-  )
+  );
 };
 
 export default Test;
