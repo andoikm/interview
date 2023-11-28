@@ -3,27 +3,19 @@ import { createRoot } from 'react-dom/client';
 
 import spriteSrc from "../resources/sprite.png";
 
-
 const constants = {
-  TIMER: 50
+  TIMER: 1000/24,
+  X: 12,
+  Y: 26-11,
+  width: 640,
+  height: 360,
 };
 
 function Demo() {
   const timer = useRef();
-  const imgRef = useRef(null);
-  const sizes = useRef({height:0, width:0, sizeX:0, sizeY:0});
   const [pos, setPos] = useState({x:0, y:0});
 
   useEffect(() => clearInterval(timer.current), []);
-
-  const handleImageLoaded = () => {
-    const {clientHeight, clientWidth, offsetParent} = imgRef.current;
-    const {clientHeight: containerHeight, clientWidth: containerWidth} = offsetParent;
-    sizes.current.width = containerWidth;
-    sizes.current.height = containerHeight;
-    sizes.current.sizeX = clientWidth / containerWidth;
-    sizes.current.sizeY = clientHeight / containerHeight;
-  };
 
   const onClick = () => {
     if (timer.current) {
@@ -31,13 +23,13 @@ function Demo() {
       timer.current = null;
       return;
     }
-    const {sizeY, sizeX} = sizes.current;
+
     timer.current = setInterval(() => {
       setPos(prev => {
         return {
-          x: prev.x < sizeX ? prev.x+1 : 0,
-          y: prev.x < sizeX
-             ? prev.y < sizeY ? prev.y + 1 : 0
+          x: prev.x < constants.X ? prev.x+1 : 0,
+          y: prev.x < constants.X
+             ? prev.y < constants.Y ? prev.y + 1 : 0
              : prev.y
         };
       });
@@ -52,17 +44,18 @@ function Demo() {
           className="animated-img"
           src={spriteSrc}
           alt="sprite"
-          ref={imgRef}
-          style={{left: `${-pos.x*sizes.current.width}px`, top: `${-pos.y*sizes.current.height}px`}}
-          onLoad={handleImageLoaded}
+          style={{left: `${-pos.x*constants.width}px`, top: `${-pos.y*constants.height}px`}}
         />
       </div>
-      <button onClick={onClick}>{timer.current ? "pause" : "resume"}</button>
+      <div style={{textAlign: "center"}}>
+        <button
+          style={{margin: "20px", padding: "5px 10px"}}
+          onClick={onClick}
+        >{timer.current ? "pause" : "resume"}</button>
+      </div>
     </div>
-  )
+  );
 }
-
-
 
 export default function bootstrap(domElement) {
   const root = createRoot(domElement)
