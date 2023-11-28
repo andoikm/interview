@@ -57,7 +57,6 @@ function Demo() {
           onLoad={handleImageLoaded}
         />
       </div>
-
       <button onClick={onClick}>{timer.current ? "pause" : "resume"}</button>
     </div>
   )
