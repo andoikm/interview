@@ -5,9 +5,23 @@
 		<link rel="stylesheet" type="text/css" href="index.css"/>
 
 		<script type="text/javascript">
-			
+
 			function findIntersection(arr1, arr2) {
-				// @TODO   Put your JavaScript here
+				const obj = {};
+				const result = [];
+				
+				for (const num of arr1) {
+					obj[num] = (obj[num] || 0) + 1;
+				}
+
+				for (const num of arr2) {
+					if (obj[num] > 0) {
+						result.push(num);
+						obj[num]--;
+					}
+				}
+
+				return result;
 			}
 
 			// outputs "[2, 2]"
