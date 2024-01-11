@@ -1,0 +1,20 @@
+.slider-item {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.slider-item.selected:after {
+    position: absolute;
+    top: 100%;
+    left: 16px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 15px 10px;
+    border-color: transparent transparent #0490ff transparent;
+    transform: rotate(0deg);
+}

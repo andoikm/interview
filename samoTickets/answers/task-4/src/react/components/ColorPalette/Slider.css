@@ -1,0 +1,22 @@
+.container {
+    padding: 25px;
+    display: flex;
+}
+
+.slider-container {
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.custom-color-input-wrapper {
+    padding: 25px;
+    margin-left: 16px;
+}
+
+.custom-color-input-wrapper input {
+    padding: 16px;
+    border: 2px seagreen solid
+}
