@@ -1,24 +1,24 @@
-import {COLOR_STEP, SLIDER_INIT_STATE} from "./constants.js";
+import {COLOR_STEP, INIT_STATE} from "./constants.js";
 
-export const getShiftRight = val => {
+export const getNext = val => {
     const newVal = val - COLOR_STEP;
     return newVal < 0 ? 0 : newVal;
 };
 
-export const getShiftLeft = val => {
+export const getPrevious = val => {
     const newVal = val + COLOR_STEP;
-    return newVal > SLIDER_INIT_STATE ? SLIDER_INIT_STATE : newVal;
+    return newVal > INIT_STATE ? INIT_STATE : newVal;
 };
 
 export const findClosest = val => {
-    const left = val - Math.floor(val % COLOR_STEP);
-    const right = left + COLOR_STEP;
-    let newVal = val - left > right - val
-        ? right
-        : left;
+    const prev = val - Math.floor(val % COLOR_STEP);
+    const next = prev + COLOR_STEP;
+    let newVal = val - prev > next - val
+        ? next
+        : prev;
 
-    if (newVal > SLIDER_INIT_STATE) {
-        newVal = SLIDER_INIT_STATE;
+    if (newVal > INIT_STATE) {
+        newVal = INIT_STATE;
     }
     if (newVal < 0) {
         newVal = 0;

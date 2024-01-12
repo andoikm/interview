@@ -1,8 +1,8 @@
-//@TODO   Write code here to make `npm test` command pass
 
-const isEmpty = (arr) => arr.length === 0;
-const hasDepIdEqualToId = (arr) => {
-    for (let i =0; i < arr.length; i++) {
+const isEmpty = arr => arr.length === 0;
+
+const hasDepIdEqualToId = arr => {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i].id === arr[i].dependencyId) {
             return true;
         }

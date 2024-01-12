@@ -1,13 +1,10 @@
-export const SLIDER_INIT_STATE = 255;
+export const INIT_STATE = 255;
 
 export const COLOR_STEP = 5;
 
-const generatedColors = [];
-for (let i = SLIDER_INIT_STATE; i >= 0; i = i - COLOR_STEP) {
-    generatedColors.push(i);
-}
-
-export const COLORS = generatedColors;
+export const COLORS = new Array(1 + INIT_STATE/COLOR_STEP)
+    .fill(INIT_STATE)
+    .map((item,  i) => INIT_STATE - COLOR_STEP*i);
 
 export const KEY_CODES = {
     ENTER: 13,

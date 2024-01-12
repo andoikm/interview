@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {findClosest} from "./utils.js";
 import {KEY_CODES} from "./constants.js";
 
-const CustomColorInput = ({value:valueProps, setValue: setValueProps}) => {
+const ColorPaletteCustomInput = ({value:valueProps, setValue: setValueProps}) => {
     const [value, setValue] = useState(valueProps);
 
     const handleKeyDown = (e) => {
@@ -17,7 +17,6 @@ const CustomColorInput = ({value:valueProps, setValue: setValueProps}) => {
         setValue(valueProps);
     }, [valueProps]);
 
-
     return (
         <div className="custom-color-input-wrapper">
             <input
@@ -30,4 +29,4 @@ const CustomColorInput = ({value:valueProps, setValue: setValueProps}) => {
     );
 };
 
-export default CustomColorInput;
+export default ColorPaletteCustomInput;

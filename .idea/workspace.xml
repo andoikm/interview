@@ -5,93 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7883124d-0718-4973-96cc-1ea6cefea333" name="Changes" comment="v">
-      <change afterPath="$PROJECT_DIR$/.idea/interview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-app/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-app/.idea/react-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/.idea/answers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/cleanup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-1/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-1/mock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-2/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-3/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/Demo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/Slider/Slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/Slider/Slider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/Slider/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/SliderItem/SliderItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/SliderItem/SliderItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/resources/mock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/vanilla/Demo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-5/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-5/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-5/src/lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-5/test/lib.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/.idea/tasks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/cleanup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-1/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-1/mock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-2/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-3/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/src/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/src/react/Demo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/src/resources/mock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/src/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/src/vanilla/Demo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-4/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-5/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-5/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-5/src/lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoTickets/tasks/task-5/test/lib.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/ColorPalette.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/samoTickets/answers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/Demo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/Demo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/CustomColorInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/ColorPaletteCustomInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/Slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/Slider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/SliderItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/SliderItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/ColorPaletteButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/react/components/ColorPalette/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-4/src/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/samoTickets/answers/task-4/src/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samoTickets/answers/task-5/src/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/samoTickets/answers/task-5/src/lib.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +84,7 @@
       <workItem from="1705001705546" duration="46000" />
       <workItem from="1705001767246" duration="17000" />
       <workItem from="1705001806732" duration="377000" />
+      <workItem from="1705050996745" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="v">
       <created>1704576488346</created>

@@ -1,7 +1,6 @@
-import React, {useEffect, useRef, memo} from 'react';
-import './SliderItem.css';
+import React, {useEffect, useRef} from "react";
 
-const SliderItem = ({color, isSelected, onSelect}) => {
+const ColorPaletteButton = ({color, isSelected, onSelect}) => {
     const ref = useRef(null);
 
     useEffect(() => {
@@ -14,10 +13,10 @@ const SliderItem = ({color, isSelected, onSelect}) => {
         <button
             ref={ref}
             onClick={() => onSelect(color)}
-            className={`slider-item ${isSelected ? "selected" : ""}`}
+            className={`color-palette-button ${isSelected ? "selected" : ""}`}
             style={{backgroundColor: `rgb(${color},${color} ,${color})`}}
         />
     );
 };
 
-export default memo(SliderItem);
+export default ColorPaletteButton;

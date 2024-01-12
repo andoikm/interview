@@ -1,13 +1,13 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Slider from "./components/ColorPalette/Slider.jsx";
+import ColorPalette from "./components/ColorPalette/ColorPalette.jsx";
 
 function Demo() {
   return (
     <div className="demo">
-      <Slider />
+      <ColorPalette />
     </div>
-  )
+  );
 }
 
 
