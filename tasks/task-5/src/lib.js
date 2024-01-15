@@ -2,8 +2,6 @@
 
 // export ...
 
-
-
 const isNodeValid = arr => arr.length === 0 || arr.every(node => node.hasOwnProperty("id") && node.hasOwnProperty("label"));
 
 const isIdUnique = arr => (new Set(Object.values(arr).map(({id}) => id))).size === arr.length;

@@ -21,14 +21,8 @@
 
 .btn {
   margin: 20px;
+  cursor: pointer;
   padding: 5px 10px;
   border-radius: 5px;
-}
-
-.btn.danger {
-  background: red;
-}
-
-.btn {
   background: seagreen;
 }

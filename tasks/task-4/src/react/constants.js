@@ -5,4 +5,4 @@ export const CONFIGS = {
   height: 360,
 };
 
-export const TIMER = 1000/24;
+export const FPS = 1000/24;
