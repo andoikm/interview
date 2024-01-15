@@ -1,81 +1,91 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Task 1</title>
-		<link rel="stylesheet" type="text/css" href="index.css"/>
+<head>
+    <title>Task 1</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
 
-		<style type="text/css">
-		#pixelated {
-			margin: auto;
-      width: 240px;
-      height: 160px;
-		}
+    <style type="text/css">
+        :root {
+            --square-size: 40px;
+            --info-color: #005fab;
+            --danger-color: #de3938;
+            --success-color: #2a7b41;
+            --warning-color: #F58326;
+        }
+        #pixelated {
+            margin: auto;
+            width: 240px;
+            height: 160px;
+        }
 
-    .row {
-        display: flex;
-    }
+        .row {
+            display: flex;
+        }
 
-    .item {
-        background: #2a7b41;
-        width:40px;
-        height: 40px;
-    }
+        .item {
+            width: var(--square-size);
+            height: var(--square-size);
+            background: var(--success-color);
+        }
 
-    .row-1 {
-        justify-content: space-between;
-    }
-    .row-2 {
-        justify-content: space-around;
-    }
-    .row-3 {
-        justify-content: center;
-    }
-    .row-4 {
-        /*justify-content: space-evenly;*/
-        justify-content: center;
-        gap: 40px;
-    }
+        .row-1 {
+            justify-content: space-between;
+        }
 
-    .row-2 .item, .row-4 .item {
-        background: #F58326;
-    }
-    .row-3 .item:nth-child(2) {
-        background: #de3938;
-    }
-    .row-3 .item:nth-child(3) {
-        background: #005fab;
-    }
+        .row-2 {
+            justify-content: space-around;
+        }
 
+        .row-3 {
+            justify-content: center;
+        }
 
+        .row-4 {
+            justify-content: center;
+            gap: var(--square-size);
+        }
+
+        .row-2 .item,
+        .row-4 .item {
+            background: var(--warning-color);
+        }
+
+        .row-3 .item:nth-child(2) {
+            background: var(--danger-color);
+        }
+
+        .row-3 .item:nth-child(3) {
+            background: var(--info-color);
+        }
     </style>
-	</head>
+</head>
 
-	<body>
-		<div class="requirements">
-			<h1>Task 1</h1>
-      <p>Using HTML and CSS create pixelated uppercase letter W, as in <a href="./mock.png">mock</a>.</p>
-		</div>
+<body>
+<div class="requirements">
+    <h1>Task 1</h1>
+    <p>Using HTML and CSS create pixelated uppercase letter W, as in <a href="./mock.png">mock</a>.</p>
+</div>
 
-    <div id="pixelated">
-      <div class="row row-1">
+<div id="pixelated">
+    <div class="row row-1">
         <div class="item"></div>
         <div class="item"></div>
-      </div>
-      <div class="row row-2">
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-      </div>
-      <div class="row row-3">
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-      </div>
-      <div class="row row-4">
-        <div class="item"></div>
-        <div class="item"></div>
-      </div>
     </div>
-	</body>
+    <div class="row row-2">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <div class="row row-3">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <div class="row row-4">
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</div>
+</body>
 </html>

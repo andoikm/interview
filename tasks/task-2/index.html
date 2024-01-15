@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Exercise 2</title>
-		<link rel="stylesheet" type="text/css" href="index.css"/>
+<head>
+    <title>Exercise 2</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
 
-		<script type="text/javascript">
+    <script type="text/javascript">
 
       function withReversedArgs(fn) {
         //@TODO  write code to implement newFn
         // const newFn = ...;
         //
         // return newFn;
+        const newFn = function (...args) {
+          const reversedArgs = args.reverse();
+          return fn(...reversedArgs);
+        };
+
+        return newFn;
       }
-      
+
 
       function strConcat(s1, s2, s3) {
         return s1 + s2 + s3;
@@ -25,7 +31,7 @@
       const reversedStrConcat = withReversedArgs(strConcat)
       console.log(reversedStrConcat('Hello', ' ', 'World'));
 
-      
+
       function divide(a, b) {
         return a / b;
       }
@@ -37,15 +43,16 @@
       const reversedDivide = withReversedArgs(divide)
       console.log(reversedDivide(2, 1));
     </script>
-	</head>
+</head>
 
-	<body>
-		<div class="requirements">
-			<h1>Exercise 2</h1>
-      <p>Implement <code>withReversedArgs</code> function.</p>
-      <p><code>withReversedArgs</code> should return a new function which calls the given function but with reversed order of arguments.</p>
-      <br/>
-      <p>See browser console for more info.</p>
-    </div>
-	</body>
+<body>
+<div class="requirements">
+    <h1>Exercise 2</h1>
+    <p>Implement <code>withReversedArgs</code> function.</p>
+    <p><code>withReversedArgs</code> should return a new function which calls the given function but with reversed order
+        of arguments.</p>
+    <br/>
+    <p>See browser console for more info.</p>
+</div>
+</body>
 </html>
