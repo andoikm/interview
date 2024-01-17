@@ -4,15 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7883124d-0718-4973-96cc-1ea6cefea333" name="Changes" comment="v">
-      <change afterPath="$PROJECT_DIR$/tasks/task-4/src/react/Sprite.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/task-4/src/react/SpriteContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/task-4/src/react/hooks.js" afterDir="false" />
+    <list default="true" id="7883124d-0718-4973-96cc-1ea6cefea333" name="Changes" comment="currect css">
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/cleanup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-1/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-1/mock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-2/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-3/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/react/Demo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/react/components/ColorPalette/ColorPalette.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/react/components/ColorPalette/ColorPaletteButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/react/components/ColorPalette/ColorPaletteCustomInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/react/components/ColorPalette/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/react/components/ColorPalette/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/resources/mock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/src/vanilla/Demo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-4/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-5/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-5/src/lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/SamoAnswers/task-5/test/lib.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/task-4/src/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/task-4/src/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/task-4/src/react/Demo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/task-4/src/react/Demo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/task-4/src/react/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/task-4/src/react/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/task-5/src/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/task-5/src/lib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/task-5/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/task-5/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +85,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/andotemp/interview",
+    "last_opened_file_path": "/Users/andotemp/interview/tasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,7 +116,7 @@
       <workItem from="1705001767246" duration="17000" />
       <workItem from="1705001806732" duration="377000" />
       <workItem from="1705050996745" duration="1313000" />
-      <workItem from="1705065198864" duration="12768000" />
+      <workItem from="1705065198864" duration="18674000" />
     </task>
     <task id="LOCAL-00001" summary="v">
       <created>1704576488346</created>
@@ -111,7 +146,28 @@
       <option name="project" value="LOCAL" />
       <updated>1705347346045</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="currect">
+      <created>1705349640610</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705349640610</updated>
+    </task>
+    <task id="LOCAL-00006" summary="currect css">
+      <created>1705486560759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705486560759</updated>
+    </task>
+    <task id="LOCAL-00007" summary="currect css">
+      <created>1705490766799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705490766799</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +188,8 @@
     <MESSAGE value="v" />
     <MESSAGE value="copmlated task 1, 2, 3" />
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="currect" />
+    <MESSAGE value="currect css" />
+    <option name="LAST_COMMIT_MESSAGE" value="currect css" />
   </component>
 </project>

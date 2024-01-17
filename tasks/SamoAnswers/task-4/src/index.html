@@ -1,0 +1,31 @@
+<html>
+  <body>
+    <div class="requirements">
+  
+      <h2>Requirements</h2>
+
+      <a target="_blank" href="resources/mock.png"><div class="mock" title="mock"></div></a>
+      
+      <p>
+        Create a slider which has 50 discrete positions representing 50 shades of gray.<br/> 
+        Leftmost shade is white (<code>255</code>), rightmost shade is black (<code>0</code>).<br/>
+        A slider has a pointer (pictured in blue in <i>mock</i>) showing current slider position.
+      </p>
+  
+      <ol>
+        <li>Clicking on some shade moves slider pointer to that shade, changing slider value.</li>
+        <li>It should be possible to move slider pointer with left/right arrow keys.</li>
+        <li>Text field at the right (with green borders in <i>mock</i>) shows current value of a slider.</li>
+        <li>Typing in the text field and pressing Enter updates slider selection, moving slider pointer to the closest shade.</li>
+      </ol>
+  
+      <p>Write JS in <code>"src/react/Demo.jsx"</code> or, if you prefer plain JavaScript, in <code>"src/vanilla/Demo.jsx"</code>.</p>
+      <p>Write CSS in <code>"src/slider.css"</code>. Inline styles are allowed, too.</p>
+
+      <p><code>"npm start"</code> - starts dev server and opens this page.</p>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="./index.jsx"></script>
+  </body>
+</html>
+
