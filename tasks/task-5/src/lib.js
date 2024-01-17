@@ -2,7 +2,9 @@
 
 // export ...
 
-const isNodeValid = arr => arr.length === 0 || arr.every(node => node.hasOwnProperty("id") && node.hasOwnProperty("label"));
+const isEmpty = arr => arr.length === 0;
+
+const isNodeValid = arr => arr.every(node => node.hasOwnProperty("id") && node.hasOwnProperty("label"));
 
 const isIdUnique = arr => (new Set(Object.values(arr).map(({id}) => id))).size === arr.length;
 
@@ -15,49 +17,38 @@ const hasDependency = arr => {
     }
 
     return !!nodes.find(({id}) => id === node.dependencyId);
-  })
+  });
 };
 
 const isCyclic = arr => {
-  if (arr.length === 0) {
-    return false;
-  }
+  const map = arr.reduce((acc, curr) => ({
+    ...acc,
+    [curr.id]: curr
+  }), {});
 
-  const stack = new Set();
-  const visited = new Set();
-
-  function dfs(id) {
-    if (stack.has(id)) {
-      return true;
-    }
-    if (visited.has(id)) {
-      return false;
-    }
-
-    visited.add(id);
-    stack.add(id);
-
-    const neighbor = arr.find(item => item.id === id);
-    if (neighbor && neighbor.dependencyId) {
-      if (dfs(neighbor.dependencyId)) {
-        return true;
-      }
-    }
-
-    stack.delete(id);
-    return false;
-  }
-
-  for (const node of arr) {
-    if (!visited.has(node.id) && dfs(node.id)) {
+  for (const item of arr) {
+    if (checkRecursively(item, [], map)) {
       return true;
     }
   }
-
   return false;
-}
+};
+
+const checkRecursively = (item, visited, map) => {
+  if (!item.dependencyId || !map[item.dependencyId]) {
+    return false;
+  }
+
+  if (visited.indexOf(item.dependencyId) !== -1) {
+    return true;
+  }
+  return checkRecursively(map[item.dependencyId], [...visited, item.id], map);
+};
 
 export const validate_nodes = (arr) => {
+  if(isEmpty(arr)) {
+    return true;
+  }
 
   const validationArr = [
     isNodeValid(arr),
@@ -65,7 +56,6 @@ export const validate_nodes = (arr) => {
     !isCyclic(arr),
     hasDependency(arr)
   ];
-
 
   return validationArr.every(item => item) ;
 };
