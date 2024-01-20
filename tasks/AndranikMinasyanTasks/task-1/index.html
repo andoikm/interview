@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Task 1</title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+
+		<style type="text/css">
+			
+      /* @TODO   Put your CSS here */
+
+	  :root {
+		  --main-background-color: #fff;
+		  --grid-border: 1px solid #9f9f9f;
+		  --grid-bg-color: #d8d8d8;
+		  --container-fluid-padding: 32px;
+		  --grid-item-padding: 25px 16px;
+		  --grid-primary-color: #de3a38;
+		  --grid-secondary-color: #27292e;
+	  }
+
+	  .container-fluid {
+		  background-color: var(--main-background-color);
+		  padding: var(--container-fluid-padding);
+	  }
+
+	  .container-fluid .header {
+		  background-color: var(--grid-bg-color);
+		  color: var(--grid-primary-color);
+		  margin-bottom: 50px;
+		  padding: var(--grid-item-padding);
+		  border: var(--grid-border);
+		  font-weight: bold;
+		  font-style: italic;
+	  }
+	  .grid-container {
+		  display: grid;
+		  grid-template-columns: repeat(3, 1fr);
+		  grid-column-gap: 16px;
+		  grid-row-gap: 32px;
+	  }
+
+	  .grid-container .grid-item {
+		  padding: var(--grid-item-padding);
+		  border: var(--grid-border);
+		  background-color: var(--grid-bg-color);
+		  color: var(--grid-secondary-color);
+	  }
+
+      
+    </style>
+	</head>
+
+	<body>
+		<div class="requirements">
+			<h1>Task 1</h1>
+      <p>Using HTML and CSS create the grid of patient names to match provided mock.</p>
+      <p>Stay as close to <a href="./mock.png">mock</a> as possible.</p>
+		</div>
+  
+    <div id="grid">
+      TODO:  add HTML/CSS markup goes here
+	  <div class="container-fluid">
+		  <div class="header">
+			  Patients
+		  </div>
+		  <div class="grid-container">
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+			  <div class="grid-item">Test</div>
+		  </div>
+	  </div>
+    </div>
+	</body>
+</html>

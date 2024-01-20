@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <div class="requirements">
+  
+      <h2>Requirements</h2>
+  
+      <p>
+        <code>"src/data.js"</code> contains an array with tasks data.
+        Render a Kanban board where each task is represented by card.
+        See <a target="_blank" href="resources/wireframe.jpg">wireframe</a> to understand how everything should look like.
+      </p>
+  
+      <ol>
+        <li>Tasks with same stage number should be rendered in the same column.</li>
+        <li>Columns are sorted by stage number, in ascending order. Leftmost column has the lowest stage number, rightmost column has the highest stage number.</li>
+        <li>Each card has button to move card to the left column (stage)</li>
+        <li>Each card has button to move card to the right column (stage)</li>
+        <li>Typing in quick filter field should filter cards by name and description</li>
+      </ol>
+
+      <p>Write JS in <code>"src/react/Board.jsx"</code> or, if you prefer plain JavaScript, in <code>"src/vanilla/Board.jsx"</code>.</p>
+      <p>Write CSS (if needed) in <code>"src/board.css"</code>.</p>
+
+      <p><code>"npm start"</code> - starts dev server and opens this page.</p>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="./index.jsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,39 @@
+:root {
+  --container-padding: 50px;
+  --main-background-color: #fff;
+  --text-color: #000;
+  --crad-padding: 10px;
+  --card-margin: 10px;
+}
+
+.board {
+  border: 2px seagreen solid;
+}
+
+.container-fluid {
+  padding: var(--container-padding);
+  background: var(--main-background-color);
+  color: var(--text-color)
+}
+
+.kanban-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kanban-card {
+  width: 200px;
+  margin-bottom: var(--card-margin);
+  border: 1px solid black;
+  padding: var(--crad-padding);
+}
+
+.kanban-card .description {
+  min-height: 100px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.button-wrapper {
+  text-align: right;
+}
