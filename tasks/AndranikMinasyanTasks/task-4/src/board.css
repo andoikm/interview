@@ -16,6 +16,10 @@
   color: var(--text-color)
 }
 
+.filter-container {
+  margin-bottom: 20px;
+}
+
 .kanban-container {
   display: flex;
   justify-content: space-between;
@@ -36,4 +40,8 @@
 
 .button-wrapper {
   text-align: right;
+}
+
+.flex-item {
+  width: 225px;
 }

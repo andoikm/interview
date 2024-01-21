@@ -1,13 +1,9 @@
 import React from "react"
 
-const Card = ({ data, isFirst, isLast, onChange }) => {
+const Card = ({ data, disableLeft, disableRight, onChange }) => {
 
-  const handleMoveLeft = () => {
-    onChange(data.stage, data.stage - 1, data.id);
-  };
-
-  const handleMoveRight = () => {
-    onChange(data.stage, data.stage + 1, data.id);
+  const handleMove = (delta) => {
+    onChange(data.stage, data.stage + delta, data.id);
   };
 
   return (
@@ -15,8 +11,8 @@ const Card = ({ data, isFirst, isLast, onChange }) => {
       <h1>{data.name}</h1>
       <p className="description">{data.description}</p>
       <div className="button-wrapper">
-        {!isFirst && <button onClick={handleMoveLeft}>left</button>}
-        {!isLast && <button onClick={handleMoveRight}>right</button>}
+        {!disableLeft && <button onClick={() => handleMove(-1)}>left</button>}
+        {!disableRight && <button onClick={() => handleMove(1)}>right</button>}
       </div>
     </div>
   );

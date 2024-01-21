@@ -12,7 +12,5 @@ export const GET_DATA = () => {
     }
   });
 
-  console.log(tbl);
-
   return tbl;
 };
