@@ -8,12 +8,8 @@ function mergeSort(arr) {
   const left = arr.slice(0, middle);
   const right = arr.slice(middle);
 
-  // Recursively sort both halves
-  const sortedLeft = mergeSort(left);
-  const sortedRight = mergeSort(right);
-
   // Merge the sorted halves
-  return merge(sortedLeft, sortedRight);
+  return merge(mergeSort(left), mergeSort(right));
 }
 
 function merge(left, right) {
