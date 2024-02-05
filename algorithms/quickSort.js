@@ -8,7 +8,9 @@ function quickSort(arr) {
   const middle = arr.filter(element => element === pivot); // Elements equal to the pivot
   const right = arr.filter(element => element > pivot); // Elements greater than the pivot
 
-  return quickSort(left).concat(middle, quickSort(right)); // Recursively sort left and right parts
+  return [...quickSort(left), ...middle, ...quickSort(right)];
+
+  //return quickSort(left).concat(middle, quickSort(right)); // Recursively sort left and right parts
 }
 
 // Example usage:
