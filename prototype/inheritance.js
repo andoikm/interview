@@ -1,9 +1,9 @@
 function Animal(name, lastName) {
-		this.name = name;
-		this.lastName = lastName;
+	this.name = name;
+	this.lastName = lastName;
 
-    //its mean for all instacne will be make a function copy not a referance
-    this.testFn = function() => {}
+  	  //its mean for all instacne will be make a function copy not a referance
+    	this.testFn = function() => {}
 }
 
 //create ststic function for constructor like a Array.isArray()
@@ -31,6 +31,6 @@ Dog.prototype.getAge = function() {
 	alert(`the ${this.name} is ${this.age}`);
 }
 
-const d = new Dog(29, 'Meri', 'Shahinyan');
+const d = new Dog(29, 'Chalo', 'Sevikyan');
 d.getFullInfo('is the best dog ever');
 d.getAge();
