@@ -23,7 +23,7 @@ function Dog(age, name, lastName) {
 // Dog.prototype = new Animal()
 //meak a sur that the Doc constructor is a Dog Dog.prototype.constructor = Dog;
 
-Dog.prototype = new Animal(); 
+Dog.prototype = new Animal(); // Dog.prototype = Object.create(Animal.prototype);
 
 Dog.prototype.constructor = Dog;
 
