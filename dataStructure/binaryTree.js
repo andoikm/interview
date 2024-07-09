@@ -91,6 +91,8 @@ class BST {
           return node.left;
         }
 
+
+        //find a right sumtree minimum
         let tempNode = node.right;
         while (tempNode.left !== null) {
           tempNode = tempNode.left;
