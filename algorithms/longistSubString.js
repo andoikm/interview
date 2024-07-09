@@ -1,23 +1,27 @@
-function longestUniqueSubstring(s) {
-  let start = 0;
-  let maxLength = 0;
-  let currentSubstring = "";
-
-  for (let i = 0; i < s.length; i++) {
-    const currentChar = s[end];
-    const charIndex = currentSubstring.indexOf(currentChar);
-
-    if (charIndex !== -1) {
-      // If the current character is repeated, move the start pointer
-      start = start + charIndex + 1;
+//https://www.youtube.com/watch?v=kzPUYPfzT9A
+const longestSubString = (string) => {
+  let left = 0;
+  let right = 0;
+  let answer = 0;
+  
+  const set = new Set();
+  
+  while (right < string.length) {
+    const char = string[right];
+    
+    if (!set.has(char)) {
+      set.add(char);
+      answer = Math.max(answer, right - left + 1);
+      right++;
+    } else {
+      while (set.has(char)) {
+        set.delete(string[left]);
+        left++;
+      }
     }
-
-    // Update the current substring
-    currentSubstring = s.substring(start, i + 1);
-
-    // Update the maximum length if needed
-    maxLength = maxLength >= currentSubstring.length ? maxLength : currentSubstring.length;
   }
+  
+  return answer;
+};
 
-  return maxLength;
-}
+//longestSubString("abcda")
